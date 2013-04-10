@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:collection xmlns:xs="http://www.example.org/Aufgabe3d"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/Aufgabe3d Aufgabe3d.xsd ">
+	<xs:rezept>
+		<xs:rezept-id>0</xs:rezept-id>
+		<xs:title>Nudelsalat mit getrockneten Tomaten, Pinienkernen, Schafskäse und Basilikum</xs:title>
+		<xs:autor>xs:katjajulle</xs:autor>
+		<xs:date>2008-10-22T12:00:00</xs:date>
+		<xs:picture
+			xs:uri="http://www.chefkoch.de/rezepte/1186971224658128/Nudelsalat-mit-getrockneten-Tomaten-Pinienkernen-Schafskaese-und-Basilikum.html" />
+		<xs:ingrediens xs:portion="5">
+			<xs:ingredient xs:amount="500" xs:name="Nudeln"
+				xs:unit="gramm" />
+			<xs:ingredient xs:amount="100" xs:name="Pinienkerne"
+				xs:unit="gramm" />
+			<xs:ingredient xs:amount="200" xs:name="Schafskäse"
+				xs:unit="gramm" />
+			<xs:ingredient xs:amount="200" xs:name="Tomate(n), getrocknete"
+				xs:unit="gramm" />
+			<xs:ingredient xs:amount="30" xs:name="Basilikum"
+				xs:unit="blätter" />
+			<xs:ingredient xs:amount="50" xs:name="Olivenöl"
+				xs:unit="ml" />
+			<xs:ingredient xs:amount="2" xs:name="Knoblauchzehe(n)"
+				xs:unit="Stück" />
+			<xs:ingredient xs:name="Salz" xs:unit="etwas" />
+			<xs:ingredient xs:name="Pfeffer" xs:unit="etwas" />
+		</xs:ingrediens>
+		<xs:preparation>
+			<xs:arbeitszeit>xs:arbeitszeit: ca. 25min</xs:arbeitszeit>
+			<xs:schwierigkeitsgrad>xs:schwierigkeitsgrad: simpel</xs:schwierigkeitsgrad>
+			<xs:brennwert>xs:brennwert: keine Angaben</xs:brennwert>
+			<xs:step>xs:Die Nudeln nach Packungsanweisung bissfest kochen. 
+			In der Zwischenzeit die Tomaten klein schneiden und den Schafskäse würfeln. 
+			Den Knoblauch abziehen, pressen oder winzig klein schneiden. 
+			Die Pinienkerne vorsichtig in einer Pfanne ohne Fett anrösten (Vorsicht - 
+			sie werden schnell schwarz!). Die Basilikumblätter klein reißen oder schneiden. 
+			Die gekochten Nudeln abgießen und nun alles zusammen in eine Schüssel geben. 
+			Nun das Olivenöl (die Menge ist geschätzt - 
+			je nach Gusto) darüber geben und mit Salz und Pfeffer abschmecken.
+			Tipp: Bei uns wird die erste Portion sogar immer noch warm gegessen.
+      </xs:step>
+		</xs:preparation>
+		<xs:comment>
+			<xs:autor>xs:always</xs:autor>
+			<xs:date>2009-07-02T19:04:00</xs:date>
+			<xs:text>xs:Schmeckt wirklich klasse, auch ohne Essig. 
+      Super mediterraner Geschmack, die Zutaten passen perfekt zusammen! 
+	  Vielen Dank fürs Rezept! 
+	  LG always
+	  </xs:text>
+			<xs:picture />
+		</xs:comment>
+	</xs:rezept>
+
+
+<!-- 2tes Beispiel -->
+
+
+<xs:rezept>
+	<xs:rezept-id>0</xs:rezept-id>
+	<xs:title>Lenchen’s Schokoladenkuchen</xs:title>
+	<xs:autor>Leen</xs:autor>
+	<xs:date>2001-11-15T00:00:00</xs:date>	
+        	<xs:picture xs:uri = "http://static.chefkoch-cdn.de/ck.de/rezepte/2/2464/8082-960x720-lenchen_s_schokoladenkuchen.jpg"/>
+	<xs:ingrediens xs:portion="16">
+		<xs:ingredient xs:amount="12.5" xs:name="Butter" xs:unit="g"></xs:ingredient>	
+		<xs:ingredient xs:amount="200" xs:name="Schokolade, Blockschokolade" xs:unit="g"></xs:ingredient>
+		<xs:ingredient xs:amount="120" xs:name="Mehl" xs:unit="g"></xs:ingredient>
+		<xs:ingredient xs:amount="0.5" xs:name="Backpulver" xs:unit="TL"></xs:ingredient>
+		<xs:ingredient xs:amount="1" xs:name="Vanillezucker" xs:unit="Pkt"></xs:ingredient>		
+		<xs:ingredient xs:amount="4" xs:name="Eier"></xs:ingredient>
+	</xs:ingrediens>
+	
+	<xs:preparation>
+		<xs:arbeitszeit> ca. 1 std</xs:arbeitszeit>
+		<xs:schwierigkeitsgrad>Normal</xs:schwierigkeitsgrad>
+		<xs:brennwert>295 kcal</xs:brennwert>
+		<xs:step>Butter und Schokolade im Wasserbad schmelzen.</xs:step>
+		<xs:step>Eier trennen und Eiweiß steif schlagen.</xs:step>
+		<xs:step>Eigelbe, Zucker und Vanillezucker verrühren.</xs:step>
+		<xs:step>Geschmolzene Butter-Schokomasse hinzufügen und mischen.</xs:step>
+		<xs:step>Mehl mit dem Backpulver in die Masse sieben und zum Schluss die steifen Eiweiße vorsichtig unterheben.</xs:step>
+		<xs:step>Eine gut gefettete Form geben.</xs:step>
+		<xs:step>Bei 180°Grad 40 – 50 Minuten backen.</xs:step>
+	</xs:preparation>
+		<xs:comment>
+			<xs:autor>swieselchen</xs:autor>
+			<xs:date>2002-07-02T13:00:00</xs:date>
+			<xs:text>Habe Deinen Kuchen gestern gebacken (kleine Abwandlung: statt Blockschokolade hatte ich nur Kuvertüre, zartbitter und ich habe noch etwas Rumaroma und eine Prise Salz dazugegeben) mein LAG war total begeistert. Ich übrigends auch, super Rezept.</xs:text>
+			<xs:picture xs:uri = "http://static.chefkoch-cdn.de/ck.de/rezepte/2/2464/54425-960x720-lenchen-s-schokoladenkuchen.jpg"/>	
+		</xs:comment>
+		<xs:comment>
+			<xs:autor>Mane</xs:autor>
+			<xs:date>2003-01-07T12:00:00</xs:date>
+			<xs:text>Habe ihn eben gebacken und bin begeistert.Super Rezept :-) LG Mane</xs:text>
+			<xs:picture xs:uri = "http://static.chefkoch-cdn.de/ck.de/rezepte/2/2464/54425-960x720-lenchen-s-schokoladenkuchen.jpg"/>		
+		</xs:comment>
+</xs:rezept>
+</xs:collection>
+	
+
