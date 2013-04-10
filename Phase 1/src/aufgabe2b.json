@@ -1,0 +1,25 @@
+{
+  "anmeldung": {
+    "-xmlns": "blupblup/anmeldung.de",
+    "Gruppe": {
+      "Gruppenleiter": {
+        "Vorname": " ",
+        "Nachname": " ",
+        "Email": " ",
+        "Geb_dat": " ",
+        "Erfahrung": " ",
+        "Schlagzeug": " ",
+        "Anmerkung": " "
+      },
+      "Mitglieder": {
+      "Mitglied": {
+        "Vorname": " abc ",
+        "Nachname": " abc ",
+        "Email": " abc@abc.de ",
+        "Geb_dat": "01.01.1980 ",
+        "Erfahrung": " Fortgeschrittener",
+        "Schlagzeug": " vorhanden "
+      }
+    }
+  }
+}
