@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Anmeldung xmlns="blupblup/anmeldung.de">
+<Gruppe>
+
+<Gruppenleiter>
+  <Vorname> </Vorname>
+	<Nachname> </Nachname>
+	<Email> </Email>
+	<Geb_dat> </Geb_dat>
+	<Erfahrung> </Erfahrung>
+	<Schlagzeug> </Schlagzeug>
+	<Anmerkung> </Anmerkung>
+</Gruppenleiter>
+
+<Mitglieder>
+<Mitglied>
+	<Vorname> abc </Vorname>
+	<Nachname> abc </Nachname>
+	<Email> abc@abc.de </Email>
+	<Geb_dat>01.01.1980 </Geb_dat>
+	<Erfahrung> Fortgeschrittener</Erfahrung>
+	<Schlagzeug> vorhanden </Schlagzeug>
+</Mitglied>
+</Mitglieder>
+</Gruppe>
+</Anmeldung>
